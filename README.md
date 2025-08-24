@@ -28,14 +28,8 @@ This project demonstrates data preprocessing, training regression models, evalua
 
 ### ✅ Prerequisites  
 - Python 3.7 or later  
-- pip or other package manager  
-
-### 🔧 Installation  
-Clone the repository:  
-```bash
-git clone https://github.com/your-username/student-score-prediction.git
-cd student-score-prediction
-## 🧠 Models Used  
+- pip or other package manager
+- ## 🧠 Models Used  
 
 ### 1️⃣ Linear Regression  
 - Fits a straight line to predict scores based on features.  
@@ -65,3 +59,10 @@ Input: `Study Hours = 7`
 - **Linear Regression Prediction:** 65  
 - **Polynomial Regression Prediction:** 70  
 - **Actual Score:** 72  
+
+
+### 🔧 Installation  
+Clone the repository:  
+```bash
+git clone https://github.com/your-username/student-score-prediction.git
+cd student-score-prediction
