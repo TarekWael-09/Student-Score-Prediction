@@ -1,49 +1,93 @@
 🎓 Student Score Prediction
-📌 Overview
 
-This project focuses on predicting student exam scores based on study-related factors.
-The aim is to analyze how input features (like study hours, attendance, etc.) affect performance and use regression techniques to make accurate predictions.
+📖 A machine learning project to predict student exam scores based on study hours and related features.
+This project demonstrates data preprocessing, training regression models, evaluating performance, and visualizing results.
 
-⚙️ Project Workflow
+🚀 Features
 
-Data Preprocessing
+Load and preprocess student dataset
 
-Cleaned dataset (handled missing values & duplicates)
+Apply Linear Regression and Polynomial Regression
 
-Prepared features for training
+Compare model performance using evaluation metrics
 
-Exploratory Data Analysis (EDA)
+Visualize:
 
-Data visualization (distributions, correlations)
+Data distributions & correlations
 
-Identified trends between study hours and exam scores
+Regression line & polynomial curve fit
 
-Modeling
+Model predictions vs actual scores
 
-Implemented Linear Regression
+Clean and well-documented code with explanations
 
-Implemented Polynomial Regression to capture non-linear relationships
+📊 Dataset
 
-Compared model performance
+Input features such as: study hours, attendance, etc.
 
-Evaluation
+Target variable: student exam scores
 
-Used metrics such as R² Score, Mean Squared Error (MSE), and Mean Absolute Error (MAE)
+Preprocessed to remove duplicates & handle missing values
 
-Polynomial Regression showed better fit for non-linear patterns
+⚙️ Getting Started
+✅ Prerequisites
 
-🛠️ Tech Stack
+Python 3.7 or later
 
-Python 🐍
+pip or other package manager
 
-Pandas, NumPy → Data processing
+🔧 Installation
 
-Matplotlib, Seaborn → Visualization
+Clone the repository:
 
-Scikit-learn → Regression models
+git clone https://github.com/your-username/student-score-prediction.git
+cd student-score-prediction
 
-📊 Results
 
-Linear Regression provides a good baseline model.
+Install dependencies:
 
-Polynomial Regression captures non-linear trends and improves prediction accuracy.
+pip install -r requirements.txt
+
+
+Run the project:
+
+python student_score_prediction.py
+
+🧠 Models Used
+1️⃣ Linear Regression
+
+Fits a straight line to predict scores based on features.
+
+Provides baseline performance.
+
+2️⃣ Polynomial Regression
+
+Captures non-linear relationships between features and scores.
+
+Improves prediction accuracy over simple linear regression.
+
+📈 Performance
+
+The models were evaluated using:
+
+R² Score
+
+Mean Squared Error (MSE)
+
+Mean Absolute Error (MAE)
+
+✅ Polynomial Regression outperformed Linear Regression in capturing non-linear patterns and gave better accuracy.
+
+🔍 Example Prediction
+
+Input: Study Hours = 7
+
+Linear Regression Prediction: 65
+
+Polynomial Regression Prediction: 70
+
+Actual Score: 72
+
+📝 License
+
+This project is open source and available under the MIT License.
